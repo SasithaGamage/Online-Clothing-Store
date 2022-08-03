@@ -312,6 +312,14 @@ ul li a:hover{
     color: #ff7200;
 }
 
+
+.icons{
+    margin-top: 500px;
+}
+
+h2{
+    color:#fff;
+}
 .slidesContainer{
     width:60%;
     margin:auto;
@@ -334,4 +342,5 @@ ul li a:hover{
     color: white;
     cursor: pointer;
 }
+
 
