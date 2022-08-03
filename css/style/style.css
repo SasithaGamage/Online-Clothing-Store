@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: dimgray;
+}
+
+/*=======================
+ adding style to about-1 
+=======================*/
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+}
+
+/*===========================
+ adding style to about items 
+============================*/
+
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+
+/*======================================
+adding style to the icons(book,globe,pencil)
+=========================================*/
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+/*======================================
+adding style to h3(heading 3) of each item 
+=========================================*/
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*======================================
+styling the hr (the blue line in between)
+=========================================*/
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+/*========================================
+hover means when you put your cursor over it
+=========================================*/
+.about-item:hover{
+    background-color: #5fbff9;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+
+/*==============================================================================
+translate Y: move along the Y axis, negative(-20) moves it up, while positive(20) moves in down by  
+================================================================================*/
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: #212226;
+    padding: 20px;
+}
+footer p{
+    color: #fff;
+}
+
+
+
+/*================================================================================
+if you manage it to this far, congratulations, check more on https://devhubke.com
+=================================================================================*/
+
+
+  h1 {
+    text-align: center;
+    color: #eee;
+    font-family: "Roboto Thin", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
+  
+  .wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    height: 500px;
+    transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+    position: relative;
+  }
+  
+  .slide-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .slide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .next-btn,
+  .prev-btn {
+    background: #eee;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .next-btn:hover,
+  .prev-btn:hover {
+    background: #48f9ff;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
+  /* Navigation Dots */
+  
+  .navigation-dots {
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  
+  .single-dot {
+    background: #333;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .single-dot.active {
+    background: #eee;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

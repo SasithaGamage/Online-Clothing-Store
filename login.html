@@ -33,12 +33,13 @@
 
                 <div class="formLogin">
                     <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
+                    <form name="myForms" method="post">
+                    <input type="username" name="username" placeholder="Enter Username Here">
+                    <input type="password" name="pass" placeholder="Enter Password Here">
+                    <input type="button" name="log" id = "logBtn" value = "Login" onClick = "myFunction()">
 
                     <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
+                    <a href="registration.html">Sign up </a> here</a></p>
                     <p class="liw">Log in with</p>
 
                     <div class="icons">
@@ -48,12 +49,12 @@
                         <a href="#"><ion-icon name="logo-google"></ion-icon></a>
                         <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
                     </div>
-
-                </div>
-                    </div>
-                </div>
+                </form>
         </div>
+            
+        
     </div>
+    <script src="register.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>

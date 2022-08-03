@@ -3,9 +3,13 @@
 <head>
     <title>Webpage Design</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="SliderCSS.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    <script src="https://kit.fontawesome.com/d66642b304.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -15,7 +19,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="AboutUs.html">ABOUT</a></li>
                     <li><a href="#">SERVICE</a></li>
                     <li><a href="#">DESIGN</a></li>
                     <li><a href="#">CONTACT</a></li>
@@ -27,9 +31,8 @@
                 <a href="#"> <button class="btn">Search</button></a>
             </div>
 
-          
 
-        </div> 
+        </div>
         <div class="cn1">
             <button class="cn"><a href="registration.html">Register</a></button>
         </div>
@@ -39,15 +42,36 @@
         </div>
         <div class="content">
             <h1>Fashion Designing & <br><span>Clothings</span> Store</h1>
-            
 
                 <button class="cn"><a href="#">Explore</a></button>
 
-                
                     </div>
                 </div>
         </div>
+        <div class="wrapper">
+            <div class="prev-btn"><i class="fas fa-chevron-left"></i></div>
+
+            <div class="slides-container">
+              <div class="slide-image">
+                <img src="1.png" alt="" />
+              </div>
+
+              <div class="slide-image">
+                <img src="2.png" alt="" />
+              </div>
+
+              <div class="slide-image">
+                <img src="3.png" alt="" />
+              </div>
+            </div>
+
+            <div class="next-btn"><i class="fas fa-chevron-right"></i></div>
+          </div>
+
+          <div class="navigation-dots"></div>
+          <script src="App.js"></script>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
 </body>
 </html>
