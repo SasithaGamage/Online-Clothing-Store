@@ -150,6 +150,46 @@ ul li a:hover{
     
 }
 
+.cn1 .cn{
+    width: 60px;
+    height: 30px;
+    background: #ffafaf;
+    border: none;
+    margin-bottom: 9px;
+    margin-right: 1px;
+    font-size: 10px;
+    cursor: pointer;
+    padding:5px;
+    color: rgb(255, 253, 253);
+    transition: .4s ease;
+    
+}
+
+.cn2 .cn{
+    width: 60px;
+    height: 30px;
+    background: #dbd2f7;
+    border: none;
+    margin-bottom: 8px;
+    margin-right: 1px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    color: rgb(255, 253, 253);
+    padding:5px;
+    
+}
+
+.cn1{
+    margin-left: 80%;
+    margin-top: -50px;
+}
+.cn2{
+    margin-left: 95%;
+    margin-top: -40px;
+}
+
+
 .content .cn a{
     text-decoration: none;
     color: rgb(185, 21, 21);
